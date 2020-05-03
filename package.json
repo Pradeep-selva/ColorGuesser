@@ -1,0 +1,24 @@
+{
+  "name": "colorguess",
+  "homepage": "http://pradeep-selva.github.io/ColorGuesser",
+  "version": "1.0.0",
+  "description": "This is a simple web game where you guess a color based off of its rgb code.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pradeep-selva/ColorGuesser.git"
+  },
+  "author": "Pradeep-selva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pradeep-selva/ColorGuesser/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
